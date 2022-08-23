@@ -18,6 +18,6 @@
 <h2> :iphone: Resultado <h2>
 
 <h2 align="center">
-<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/smartphone.png?raw=true" width="300px" />
-<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/desktop.png?raw=true" width="700px" />
+<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/smartphone.png?raw=true" width="200px" />
+<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/desktop.png?raw=true" width="600px" />
 </h2>
