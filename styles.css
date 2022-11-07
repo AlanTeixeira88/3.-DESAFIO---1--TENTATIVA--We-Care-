@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: #F0F8FF
+}
+
 header {
     margin: 44px 0 0 76px;
 }
@@ -44,15 +48,21 @@ header {
     opacity: 0.6;
 }
 
+#container-left {
+    display: inline-block;
+}
+
 img {
     width: 568px;
     height: 500px;
     margin: 144px 86px 0 125px;
+}
+
+#container-right {
     display: inline-block;
 }
 
 section {
-    display: inline-block;
     position: relative;
     bottom: 80px;
 }
@@ -104,36 +114,80 @@ button:active {
     opacity: 0.6;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 912px) and (orientation: portrait) {
 
     header {
         display: none;
     }
 
-    main {
+    #container-left {
         width: 100vw;
-        height: 90vh;
-        margin-top: 5vh;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        height: 60vh;
+        display: table;
+    }
+
+    figure {
+        display: table-cell;
+        vertical-align: middle;
     }
 
     img {
-        width: 90%;
-        height: 60%;
+        width: 604px;
+        height: 567px;
+        margin: 0 auto;
         display: block;
-        margin: 0;
+    }
+
+    #container-right {
+        width: 100vw;
+        height: 40vh;
+        display: table;
     }
 
     section {
-        height: 40%;
-        display: block;
         position: static;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    h1 {
+        font-size: 90px;
+        line-height: 101px;
+    }
+
+    h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        width: 460px;
+        height: 90px;
+        font-size: 50px;
+        margin-top: 17px;
+    }
+}
+
+@media screen and (max-width: 540px) and (orientation: portrait) {
+
+    img {
+        width: 354px;
+        height: 317px;
+    }
+
+    #container-right {
+        display: block;
+    }
+
+    section {
+        display: block;
     }
 
     h1 {
@@ -141,14 +195,149 @@ button:active {
         line-height: 61px;
     }
 
-    h2{
+    h2 {
         font-size: 30px;
         line-height: 37px;
-        margin: 7px 0 17px 0;
+    }
+
+    button {
+        width: 239px;
+        height: 64px;
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 280px) and (orientation: portrait) {
+
+    img {
+        width: 254px;
+        height: 217px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+
+    button {
+        width: 189px;
+        height: 44px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-height: 912px) and (orientation: landscape) {
+
+    header {
+        display: none;
+    }
+
+    #container-left {
+        width: 50vw;
+        height: 100vh;
+        display: table;
+    }
+
+    figure {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    img {
+        width: 468px;
+        height: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #container-right {
+        width: 50vw;
+        height: 100vh;
+        display: table;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    section {
+        display: table-cell;
+        vertical-align: middle;
+        margin: 0 auto;
+        text-align: center;
+        position: static;
+    }
+
+    h1 {
+        font-size: 80px;
+        line-height: 100px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 58px;
     }
 
     p {
         display: none;
     }
 
+    button {
+        width: 339px;
+        height: 80px;
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    @media screen and (max-height: 540px) and (orientation: landscape) {
+
+        img {
+            width: 368px;
+            height: 300px;
+        }
+
+        h1 {
+            font-size: 60px;
+            line-height: 80px
+        }
+
+        h2 {
+            font-size: 38px;
+            line-height: 48px;
+        }
+
+        button {
+            width: 239px;
+            height: 60px;
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-height: 375px) and (orientation: landscape) {
+
+        img {
+            width: 318px;
+            height: 250px;
+        }
+
+        h1 {
+            font-size: 50px;
+            line-height: 65px;
+        }
+
+        h2 {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        button {
+            width: 209px;
+            height: 45px;
+            font-size: 25px;
+        }
+    }
 }
