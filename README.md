@@ -1,23 +1,23 @@
-<h1 align="center">We Care</h1>
+# Projeto We Care
 <br>
 <br>
 
-<h2> :triangular_flag_on_post: Objetivo<h2>
-
-<p>Projeto proposto na formação do <a href="https://rodolfomori.com.br/devclub" alt="DevClub-Logo">DevClub<a> para desenvolver habilidades relacionadas à responsividade.</p>
+## :triangular_flag_on_post: Objetivo
+Projeto proposto na formação do [DevClub](https://rodolfomori.com.br/devclub) para desenvolver habilidades relacionadas às tecnologias HTML e CSS com ênfase em 
+responsividade. Projeto também foi utlizado para desenvolver habilidades na utilização do GIT e GITHUB.
 <br>
 <br>
 
-<h2> :rocket: Tecnologias </h2>
-
+## :rocket: Tecnologias
+<span>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+</span>
 <br>
 <br>
 
-<h2> :iphone: Resultado <h2>
-
+## :iphone: Resultado
 <h2 align="center">
-<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/smartphone.png?raw=true" width="200px" />
-<img src="https://github.com/AlanTeixeira88/We-Care-Responsividade/blob/master/Assets/desktop.png?raw=true" width="600px" />
+<img src="https://github.com/AlanTeixeira88/Projeto-We-Care/blob/master/Assets/image%20readme.png?raw=true" width="600px" />
 </h2>
+
